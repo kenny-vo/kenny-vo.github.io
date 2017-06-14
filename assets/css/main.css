@@ -20,6 +20,7 @@ header .container .profile-content h1 {
 
 .navbar {
 	text-transform: uppercase;
+	margin-right: 5;
 }
 .navbar-default {
     border-color: rgba(34,34,34,.05);
