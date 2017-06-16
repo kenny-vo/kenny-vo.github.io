@@ -18,95 +18,92 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
-  <!-- Set up Google Analytics here  -->
 </head>
 
-<body>
+<body id="top">
   <!-- NAVIGATION -->
-  <div class="container-fluid">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <a href="#" class="navbar-brand navbar-left" style=color: black>Kenny Vo</a>
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" style="color: black" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand page-scroll" href="#top">Kenny Vo</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a class="page-scroll" href="#about">About</a></li>
+                  <li><a class="page-scroll" href="#projects">Projects</a></li>
+                  <li><a class="page-scroll" href="#contact">Contact</a></li>
+              </ul>
+          </div>
       </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-        </ul>
-      </div>
-  </div>
   </nav>
   <!-- HEADER -->
-  <header class="header">
-    <div class="container">
-      <!-- PROFILE -->
-      <img class="profile-img pull-left" src="assets/images/ProfilePicture.jpg" width="180" height="250" alt="Profile">
-      <div class="profile-content">
-        <h1 style="font-size: 50px;">Kenny Vo</h1>
-        <h2> Full-Stack Web Developer</h2>
-        <ul class="social list-inline">
-          <li><a href="https://www.linkedin.com/in/kenny-vo/">
-            <i class="fa fa-linkedin"></i> </a>LinkedIn</li>
-          <li><a href="https://github.com/kenny-vo">
-            <i class="fa fa-github"></i> </a>Github</li>
-          <li><a href="mailto:kennyvo91@gmail.com">
-            <i class="fa fa-envelope"></i></a> Email</li>
-        </ul>
-      </div>
+  <header style="background-image: url('assets/images/mountains.jpg')">
+    <div <class="header-content">
+      <div class="header-content-inner">
+          <h1 class="header-name"> Kenny Vo </h1>
+          <br>
+          <h3> Full Stack Developer<h3>
+        </div>
     </div>
   </header>
-  <div class="container sections-wrapper">
-    <div class="row">
-      <!-- Left side of page -->
-      <div class="col-md-8 col-sm-12 col-xs-12">
-        <h2 class="about">About Me</h2>
-        <div class="content">
-          <p>I am a developer dedicated to providing excellent work, critically thought-out solutions and a disciplined, methodical approach to any organization.
-            I enjoy collaborating with my peers on challenging problems, providing peer mentorship and am looking for an environment where I can learn and push myself daily.</p>
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 style="font-size: 50px;">About Me</h2>
+            <img class="profile-img" src="assets/images/ProfilePicture.jpg" alt="Profile">
+            <hr>
+            <p>I am a developer dedicated to providing excellent work, critically thought-out solutions and a disciplined, methodical approach to any organization.
+              I enjoy collaborating with my peers on challenging problems, providing peer mentorship and am looking for an environment where I can learn and push myself daily.</p>
         </div>
-        <h2 class="skills">Skills</h2>
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec purus ac leo scelerisque rutrum. Nam ac lobortis elit, nec iaculis nunc. Fusce ante nulla, vulputate sed tortor eget, iaculis semper nisl. Sed cursus fermentum lacus eu feugiat.
-            Sed consectetur fermentum mi, in congue turpis auctor eu. Curabitur et dignissim mauris. Maecenas hendrerit dictum nisi at ultrices. Nam hendrerit nibh id purus volutpat, a tempus purus dictum. Aenean semper, dui non ullamcorper posuere, quam
-            justo blandit libero, nec pulvinar tellus sem vitae eros. Ut metus massa, consequat sed diam sit amet, pellent</p>
-        </div>
-        <h2 class="projects">Projects</h2>
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec purus ac leo scelerisque rutrum. Nam ac lobortis elit, nec iaculis nunc. Fusce ante nulla, vulputate sed tortor eget, iaculis semper nisl. Sed cursus fermentum lacus eu feugiat.
-            Sed consectetur fermentum mi, in congue turpis auctor eu. Curabitur et dignissim mauris. Maecenas hendrerit dictum nisi at ultrices. Nam hendrerit nibh id purus volutpat, a tempus purus dictum. Aenean semper, dui non ullamcorper posuere, quam
-            justo blandit libero, nec pulvinar tellus sem vitae eros. Ut metus massa, consequat sed diam sit amet, pellent</p>
-        </div>
-      </div>
-      <!-- Right side of page -->
-      <div class="col-md-4 col-sm-12 col-cs-12">
-        <aside>
-          <div class="section-inner">
-            <h2>Random things go here</h2>
-            <div class="Random">
-              <ul>
-                <li>Apples
-                  <li>Oranges
-              </ul>
-            </div>
-          </div>
-          <div>
-            <h2>Random</h2>
-            <p>em ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec purus ac leo scelerisque rutrum. Nam ac lobortis elit, nec iaculis nunc. Fusce ante nulla, vulputate sed tortor eget, iaculis semper nisl. Sed cursus fermentum lacus eu feugiat.
-              Sed consectetur fermentum mi, in congue turpis auctor eu. Curabitur et dignissim mauris. Maecenas hendrerit dictum nisi at ultrices. Nam hendrerit nibh id purus volutpat, a tempus purus dictum. Aenean semper, dui non ullamcorper posuere,
-              quam</p>
-          </div>
-        </aside>
       </div>
     </div>
-  </div>
-  <footer class="navbar navbar-default navbar-fixed-bottom">
+  </section>
+  <section class="bg-primary" id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 style="font-size: 50px;">Projects</h2>
+            <hr>
+            <ul>
+              <li>epikEats - An app using Express, NodeJS and MongoDB to create and rate a menu of a restaurant. </li>
+              <li>Vacation Tracker - Created personal API with REST-ful routes</li>
+              <li>geoQuakes - Earthquake tracking app using Jquery and Google Maps API</li>
+              <li>Tic Tac Toe - Used Javascript to create functional Tic Tac Toe game.</li>
+            </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-primary" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 style="font-size: 50px;">Contact Me</h2>
+            <hr>
+            <ul class="social list-inline">
+            <li><a href="https://www.linkedin.com/in/kenny-vo/">
+            <i class="fa fa-linkedin"></i> </a>LinkedIn</li>
+            <li><a href="https://github.com/kenny-vo">
+            <i class="fa fa-github"></i> </a>Github</li>
+            <li><a href="mailto:kennyvo91@gmail.com">
+            <i class="fa fa-envelope"></i></a> Email</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <footer class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
       <div class="row">
         <div class="col-md-6-offset-6">
@@ -114,7 +111,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
   <!-- Google Analytics -->
   <script>
