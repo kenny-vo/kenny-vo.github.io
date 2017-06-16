@@ -142,7 +142,8 @@ header .header-content {
 
 .profile-img {
 	border-radius: 50%;
-	width: 20%
+	width: 200px;
+	height: 200px;
 }
 
 .header-name {
@@ -163,8 +164,12 @@ h3 {
 
 p, #projects, #contact{
 	color: #0c0c54;
+
 }
 
+p {
+	text-align: left;
+}
 /*Footer*/
 
 /*.footer {
