@@ -1,3 +1,18 @@
-console.log('connected.')
 
-// Offset for Main Navigation
+console.log("Sanity Check");
+
+$( document ).ready(function() {
+
+  $('a[href*=\\#]').on('click', function(event){
+      event.preventDefault();
+      $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+  });
+
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+
+});
