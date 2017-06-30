@@ -127,6 +127,9 @@ header {
 	width: 100%;
 	min-height: auto;
 	text-align: center;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 100%;
 	background-image: url('assets/images/mountains.jpg');
@@ -171,6 +174,7 @@ section, #contact {
 
 h3 {
 	color: #23495d;
+	font-size: 40px;
 	margin: 0;
 }
 
@@ -186,4 +190,12 @@ p, #projects, #contact{
 .project-image {
 	width: 60%;
 	height: 60%;
+}
+
+.project-name {
+	padding-bottom: 5px;
+}
+
+.portfolio-box-caption {
+	padding-top: 10px;
 }

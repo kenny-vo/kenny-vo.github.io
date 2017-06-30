@@ -1,5 +1,5 @@
 
-console.log("Sanity Check");
+console.log("Welcome to my page! -Kenny");
 
 $( document ).ready(function() {
 
