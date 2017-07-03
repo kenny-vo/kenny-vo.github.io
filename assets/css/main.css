@@ -20,6 +20,9 @@ h6 {
 			color: #23495d;
 }
 
+h2 {
+	font-size: 50px;
+}
 /*Navigation Bar*/
 
 .navbar-default {
@@ -145,9 +148,8 @@ header .header-content {
 section, #contact {
 	position: relative;
 	width: 100%;
-	padding: 150px 15px;
+	padding: 140px 15px;
 	text-align: center;
-
 }
 
 .header-content-inner {
@@ -176,14 +178,33 @@ h3 {
 	color: #23495d;
 	font-size: 40px;
 	margin: 0;
+	padding-bottom: 5px;
+
 }
 
 .bg-primary {
     background-color: whitesmoke;
 }
 
+.bg-contact {
+    background-color: whitesmoke;
+		margin-top: 115px;
+		margin-bottom: 115px;
+}
+
+.bg-about {
+	background-color: whitesmoke;
+}
+
 p, #projects, #contact{
 	color: #23495d;
+
+}
+
+#projects{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: lightgrey;
 
 }
 
@@ -192,8 +213,8 @@ p, #projects, #contact{
 	height: 60%;
 }
 
-.project-name {
-	padding-bottom: 5px;
+.project-name{
+	text-align: center;
 }
 
 .portfolio-box-caption {
