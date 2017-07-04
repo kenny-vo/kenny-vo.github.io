@@ -148,7 +148,7 @@ header .header-content {
 section, #contact {
 	position: relative;
 	width: 100%;
-	padding: 140px 15px;
+	padding: 80px 15px;
 	text-align: center;
 }
 
@@ -209,8 +209,8 @@ p, #projects, #contact{
 }
 
 .project-image {
-	width: 60%;
-	height: 60%;
+	width: 70%;
+	height: 70%;
 }
 
 .project-name{
@@ -219,4 +219,10 @@ p, #projects, #contact{
 
 .portfolio-box-caption {
 	padding-top: 10px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.about-content {
+	font-size: 14px;
 }
