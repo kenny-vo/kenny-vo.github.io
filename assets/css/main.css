@@ -25,6 +25,13 @@ h2 {
 }
 /*Navigation Bar*/
 
+.grow:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Varela Round',Arial,sans-serif;
@@ -205,7 +212,10 @@ p, #projects, #contact{
 	padding-top: 70px;
 	padding-bottom: 70px;
 	background-color: lightgrey;
+}
 
+.shadow-box:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 .project-image {
