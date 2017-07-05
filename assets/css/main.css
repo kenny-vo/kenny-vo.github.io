@@ -253,11 +253,9 @@ p, #projects, #contact{
 }
 
 .rec-box {
-	padding-right: 25px;
-	display:inline-block;
-	float:none;
+	padding-right: 30px;
+	padding-left: 30px;
 	text-align:left;
-	margin-right:-4px;
 }
 
 .rec-box p {
