@@ -19,7 +19,7 @@ $( document ).ready(function() {
     $(document).scroll(function() {
       var x = $(this).scrollTop(),
         $nav = $(".navbar-fixed-top");
-      if (x > 3400) {
+      if (x > 3300) {
         $nav.removeClass('scrolled');
       }
     });
