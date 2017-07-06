@@ -15,4 +15,14 @@ $( document ).ready(function() {
     });
   });
 
+  $(function() {
+    $(document).scroll(function() {
+      var x = $(this).scrollTop(),
+        $nav = $(".navbar-fixed-top");
+      if (x > 3000) {
+        $nav.removeClass('scrolled');
+      }
+    });
+  });
+
 });
