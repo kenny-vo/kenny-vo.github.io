@@ -20,11 +20,16 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans','Varela Round',Arial,sans-serif;
-			color: #23495d;
+			color: #243C84;
 }
 
 h2 {
 	font-size: 50px;
+}
+
+.about-me {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 h4 {
@@ -34,15 +39,15 @@ h4 {
 
 .grow:hover
 {
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Varela Round',Arial,sans-serif;
-    background-color: #fff;
+    background-color: whitesmoke;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -51,7 +56,7 @@ h4 {
 .navbar-fixed-top.scrolled {
   background-color: whitesmoke !important;
   transition: background-color 200ms linear;
-	color: #31708f !important;
+	color: #10225B !important;
 
 }
 
@@ -59,12 +64,12 @@ h4 {
     text-transform: uppercase;
     font-family: 'Open Sans','Varela Round',Arial,sans-serif;
     font-weight: 700;
-    color: #6a7e90;
+    color: #39589F;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #6a7e90;
+    color: #10225B;
 }
 
 .navbar-default .nav > li>a,
@@ -72,17 +77,17 @@ h4 {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    color: #222;
+    color: #10225B;
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #3b5998;
+    color: #10225B;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #3b5998!important;
+    color: #10225B !important;
     background-color: transparent;
 }
 
@@ -99,17 +104,17 @@ h4 {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #6a7e90;
+        color: #10225B;
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: #6a7e90;
+        color: #39589F;
     }
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #6a7e90;
+        color: #10225B;
     }
 
     .navbar-default.affix {
@@ -119,12 +124,12 @@ h4 {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: black;
+        color: #39589F;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #3b5998;
+        color: #39589F;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -134,7 +139,7 @@ h4 {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #3b5998;
+        color: #10225B
     }
 }
 
@@ -173,22 +178,30 @@ section, #contact {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
+	margin-bottom: 20px;
+}
+
+.profile-content {
+	margin-bottom: 20px;
 }
 
 .header-name {
 	font-size: 58px;
 	text-transform: uppercase;
 	font-weight: 400;
-	color: #23495d;
+	color: #10225B;
 	margin-top: 80px;
+	letter-spacing: 10px;
 }
 
-.social {
-	font-size: 30px;
+.social a {
+	font-size: 25px;
+	color: white;
+	padding-right: 15px;
 }
 
 h3 {
-	color: #23495d;
+	color: #10225B;
 	font-size: 40px;
 	margin: 0;
 	padding-bottom: 5px;
@@ -205,24 +218,33 @@ h3 {
 		padding-bottom: 200px;
 }
 
+.contact-header {
+	color: white;
+	margin-top: 100px;
+}
+
 .bg-about {
 	background-color: whitesmoke;
 }
 
 
 p, #projects, #contact{
-	color: #23495d;
+	color: #10225B;
 
 }
 
 #projects{
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: lightgrey;
+	background-color: white;
+}
+
+.color-box:hover {
+  background-color: #9DAECB;
 }
 
 .shadow-box:hover {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.8);
 }
 
 .project-image {
@@ -244,9 +266,13 @@ p, #projects, #contact{
 	font-size: 14px;
 }
 
+.bg-recs {
+	background-color: #10225B;
+}
+
 .recs {
 	font-style: italic;
-	font-size: 15px;
+	font-size: 17px;
 	padding-right: 20px;
 	margin-left: auto;
 	text-align: center;
@@ -267,10 +293,13 @@ p, #projects, #contact{
 	padding-top: 80px;
 }
 
-.bg-recs {
+.bg-contact {
 	background-color: whitesmoke;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	width: 100%;
+	position: relative;
+	min-height: 100%;
 }
