@@ -242,7 +242,8 @@ p, #projects, #contact{
 }
 
 .color-box:hover {
-  background-color: #9DAECB;
+  background-color: #10225B;
+	color: white;
 }
 
 .shadow-box:hover {
