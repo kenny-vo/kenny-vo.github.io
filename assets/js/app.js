@@ -1,5 +1,5 @@
 
-console.log("Welcome to my page! (And yes, I coded this page myself.. :) ");
+console.log("Welcome to my page!");
 
 $( document ).ready(function() {
 
